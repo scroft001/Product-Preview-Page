@@ -3,9 +3,9 @@ import {Card} from './components'
 
 const App = () => {
   return (
-    <div className='app'>
+    <main className='app'>
       <Card />
-    </div>
+    </main>
   )
 }
 
