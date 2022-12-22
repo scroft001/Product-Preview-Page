@@ -1,6 +1,6 @@
 import React from 'react'
-import {Card, Description, Price, BuyButton} from './components'
-import DesktopImage from '../../images/image-product-desktop.jpg';
+import {Description, Price, BuyButton} from '../../components'
+// import DesktopImage from '../../images/image-product-desktop.jpg';
 import './card.scss';
 
 //use state to change image based on screen size
@@ -8,10 +8,14 @@ import './card.scss';
 const Card = () => {
   return (
     <section className='app__card'>
-        <img src={DesktopImage} alt='product preview' />
-        <Description />
-        <Price />
-        <BuyButton />
+      <div className='app__card-image'></div>
+        {/* <img src={DesktopImage} alt='product preview' /> */}
+        <div className='app__card-info'>
+          <Description />
+          <Price />
+          <BuyButton />
+        </div>
+        
     </section>
   )
 }

@@ -4,7 +4,7 @@ import './description.scss'
 const Description = () => {
   return (
     <div>
-      
+      Description
     </div>
   )
 }
